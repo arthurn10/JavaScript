@@ -3,12 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JavaScript</title>
+
+    <style>
+        body{
+            font-size: 20px;
+        }
+    </style>
 </head>
 <body>
 
     <script>
-        
+        var salario1 = Number.parseFloat( window.prompt ('Qual seu salário? '))
+        var salario2 = Number.parseFloat( window.prompt ('Qual seu vale-alimentação? '))
+        var soma = salario1 + salario2
+
+        var nome = window.prompt('Qual seu nome? ')
+
+        document.write(`Seu nome é ${nome.toUpperCase()}<br>`)
+        document.write(`Seu SALÁRIO + VR é ${soma} reais `) 
     </script>
     
 </body>
