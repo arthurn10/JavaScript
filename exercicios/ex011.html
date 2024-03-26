@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condições</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+
+    <input type="text" name="pais" id="pais">
+    <input type="button" value="clique" onclick="clique()" >
+
+    <div id="res">Resultado</div>
+
+    <script>
+        function clique(){
+            var p1 = window.document.getElementById('pais')
+            var p2 = p1.value
+          
+            if (p2 == 'brasil'){
+                res.innerHTML = "Você é brasileiro(a)"
+            } else {
+                res.innerHTML = "Você é estrangeiro(a)"
+            }
+        }
+    </script>
+    
+</body>
+</html>
