@@ -1,0 +1,37 @@
+@charset "UTF-8" ;
+
+body {
+    background-color: rgb(15, 207, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+
+section {
+    background-color: white;
+    width: 350px;
+    margin: auto;
+    border-radius: 3%;
+    box-shadow: 5px 5px rgba(141, 138, 138, 0.311);
+    padding: 15px;
+    text-align: center;
+}
+input#fnum{
+    width: 50px;
+}
+
+select#flista {
+    width: 150px;
+    text-align: center;    
+}
+
+footer {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+
+}
